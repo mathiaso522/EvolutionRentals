@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVolution Rentals</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EVolution Rentals</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('services') }}">Services</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 id="header"> About Us!</h1>
+                <p1 id="bio"> Welcome to EVolution Rentals. EVolution Rentals is a pioneering electric vehicle rental service that caters specifically to fast moving, work-oriented individuals in order embrace eco-friendly mobility sources of transportation. At EVR, we recognize the swift increase of carbon footprints throughout the past five decades and therefore aim to contribute to a cleaner future where our carbon footprint decreases. As highway vehicles are known to release about 1.5 billion tons of greenhouse gases(nearly one-fifth of all emissions) into the atmosphere each year, we believe it is essential to make an effort to switch to using electric vehicles. Our fleet of electric vehicles not only offers a cheaper, exciting driving experience, it also contributes to a cleaner environment. Driven by our dedication to innovation, we strive to make electric vehicles affordable and easily accessible to our clients. We provide flexible rental options, straightforward booking processes, and efficient delivery services to make the rental experience more enjoyable. Join EVR today for greener rides and future thrives. </p1>
+                <h2> "EVolution Rentals" was created by Emilio, Mathias, Melissa, and Teferi</h2>
+                <p></p>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EVolution Rentals</p>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</body>
+</html>

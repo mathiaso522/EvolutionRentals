@@ -1,0 +1,148 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color for readability */
+    background-color: #f8f8f8; /* Light background color */
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #34495e; /* Darker background for contrast */
+    color: white; /* White text for readability */
+    padding: 100px 0;
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c; /* Red button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.hero button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0;
+}
+
+/* Specific styles for rentals page */
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+}
+
+/* Style for individual rental items */
+.rentals-item {
+    background-color: #fff; /* White background for each rental item */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Button styles for rentals */
+.rentBtn {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.rentBtn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Additional specific styles for different pages */
+.index-hero {
+    background-color: #3498db; /* Change for index page hero section */
+}
+
+.about-content {
+    max-width: 800px; /* Centering content on the about page */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services-item {
+    border: 1px solid #ddd; /* Border for service items */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff; /* White background for service items */
+}
+
+.contact-form {
+    max-width: 600px; /* Centering contact form */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

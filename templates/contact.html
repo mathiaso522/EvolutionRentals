@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVolution Rentals</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EVolution Rentals</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('services') }}">Services</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 id="header"> Contacts!</h1>
+                <h2 id="header" > Having problems with our services? Please contact either one of our founders</h2>
+                <p1 id="bio"> Emilio Bravo, Mathias Osback, Melissa Asare, or Teferi Richards</p1>
+                <h2> </h2>
+                <p></p>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EVolution Rentals</p>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</body>
+</html>

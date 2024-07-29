@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVolution Rentals</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EVolution Rentals</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('services') }}">Services</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 id="header"> Services!</h1>
+                <h2 id="header" > Where's your next ride?</h2>
+                <p1 id="bio"> </p1>
+                <h2> </h2>
+                <p></p>
+                
+            </div>
+            <section class="vehicles">
+                <div class="vehicle">
+                    <img src="https://m.media-amazon.com/images/I/81dXNH4MX5L._AC_SX679_.jpg" alt="Electric Scooter">
+                    <h3>Roinside Electric Scooter</h3>
+                    <p>Cost to Rent: $75/week or $150/month</p>
+                    <button class="rentBtn" data-vehicle="scooter">Rent Now</button>
+                </div>
+                <div class="vehicle">
+                    <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/0031b8d4-7645-4c46-8193-6cfca956611f.__CR0,0,463,625_PT0_SX463_V1___.jpg" alt="Electric Bike">
+                    <h3>EXRBYKO E-Bike</h3>
+                    <p>Cost to Rent: $100/week or $200/month</p>
+                    <button class="rentBtn" data-vehicle="bike">Rent Now</button>
+                </div>
+                <div class="vehicle">
+                    <img src="https://www.euco.us/cdn/shop/products/01_bbfe7f2c-97ee-46b7-acfe-437609e53896_1080x.jpg?v=1586357398" alt="Electric Unicycle">
+                    <h3>Kingson S18 Unicycle</h3>
+                    <p>Cost to Rent: $125/week or $250/month</p>
+                    <button class="rentBtn" data-vehicle="unicycle">Rent Now</button>
+                </div>
+                <div class="vehicle">
+                    <img src="https://sfycdn.speedsize.com/c2835772-4e84-48e5-85a8-037a5537cf8e/https://onewheel.com/cdn/shop/files/PintXSplitCountry2_1400x.jpg?v=1682352405" alt="Onewheel">
+                    <h3>Onewheel</h3>
+                    <p>Cost to Rent: $150/week or $300/month</p>
+                    <button class="rentBtn" data-vehicle="onewheel">Rent Now</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EVolution Rentals</p>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</body>
+</html>
